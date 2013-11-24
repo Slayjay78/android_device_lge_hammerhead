@@ -153,12 +153,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqomx_core \
-    libmmcamera_interface \
     libmmjpeg_interface \
     camera.hammerhead \
     mm-jpeg-interface-test \
     mm-qcamera-app
 
+# temporary removed  libmmcamera_interface \
+	
 PRODUCT_PACKAGES += \
     keystore.msm8974
 
