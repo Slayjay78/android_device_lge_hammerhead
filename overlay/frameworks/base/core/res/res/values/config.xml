@@ -117,8 +117,11 @@
     <bool name="config_multiColorBatteryLed">true</bool>	
 
     <!-- Do we want to see battery option in psx ? -->
-	<bool name="config_showBatteryLedOption">false</bool>
+	<bool name="config_showBatteryLedOption">true</bool>
 	
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
     <!-- Default color for notification LED is white. -->
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
