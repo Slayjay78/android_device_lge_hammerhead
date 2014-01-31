@@ -114,7 +114,7 @@
     <bool name="config_intrusiveNotificationLed">true</bool>
 
     <!-- Do we want to see battery option in psx ? -->
-	<bool name="config_showBatteryLedOption">ture</bool>
+	<bool name="config_showBatteryLedOption">true</bool>
 	
     <!-- Default color for notification LED is white. -->
     <color name="config_defaultNotificationColor">#ffffffff</color>
