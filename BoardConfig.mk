@@ -128,6 +128,9 @@ TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 TARGET_TOUCHBOOST_FREQUENCY:= 1200
 
 
+# Optimize memory
+OPT_MEMORY := true
+
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
 
 #TWRP
