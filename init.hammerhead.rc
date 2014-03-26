@@ -53,7 +53,7 @@ on boot
     write /sys/module/wakelock/parameters/debug_mask 7
 
     write /proc/sys/vm/swappiness 0
-    write /proc/sys/vm/vfs_cache_pressure 100
+    write /proc/sys/vm/vfs_cache_pressure 0
     write /proc/sys/vm/dirty_background_ratio 5
     write /proc/sys/vm/dirty_ratio 5
 
